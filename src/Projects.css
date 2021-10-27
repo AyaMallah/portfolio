@@ -1,0 +1,32 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project {
+  margin: 10px;
+  min-width: 170px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff8e5;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+.project:hover {
+  opacity: 0.8;
+}
+.projects.icon {
+  font-size: 20px;
+}
+.deployment {
+  max-width: 100px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 580px) {
+  .projects {
+    width: 300px;
+  }
+}

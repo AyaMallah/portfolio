@@ -1,0 +1,20 @@
+.technologies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icon {
+  font-size: 45px;
+  padding: 10px;
+  margin: 15px;
+  color: #212121;
+}
+.icon:hover {
+  color: #f4a442;
+}
+
+@media screen and (max-width: 580px) {
+  .tech-bar {
+    width: 300px;
+  }
+}

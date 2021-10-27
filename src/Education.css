@@ -1,0 +1,26 @@
+.institute {
+  width: 120px;
+  margin-top: 20px;
+}
+.education-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.education {
+  margin: 10px;
+  min-width: 240px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff8e5;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+.education:hover {
+  opacity: 0.9;
+}
+@media screen and (max-width: 580px) {
+  .education-section {
+    width: 300px;
+  }
+}
