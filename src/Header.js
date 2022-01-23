@@ -10,7 +10,7 @@ function Header() {
             Aya Mallah
           </div>
         </div>
-        <h3 class="animate__animated animate__slideInRight">Junior Front-end Developer </h3>
+        <h3 className="animate__animated animate__slideInRight">Junior Front-end Developer </h3>
       </div>
       <div>
         <img src="https://res.cloudinary.com/dhrxw6zhp/image/upload/v1635026738/Web_development__Outline_2_j0lxnp.png" alt="computer" />

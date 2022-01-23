@@ -54,6 +54,15 @@ function Projects() {
             </div>
           </div>
         </div>
+        <div className="project">
+          <div>
+            <p>Dictionary App</p>
+            <div className="deployment">
+              <a target="_blank" rel="noreferrer" href="https://github.com/AyaMallah/Dictionary-App"><FontAwesomeIcon icon={faGithub} className="projects-icon" /></a>
+              <a target="_blank" rel="noreferrer" href="https://dictionary-app-uk.netlify.app/"><FontAwesomeIcon icon={faLink} className="projects-icon" /></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
